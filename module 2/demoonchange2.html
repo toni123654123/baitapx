@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <select id="myselect">
+        <option value="thethao"> thể thao</option>
+    <option value="amnhac"> Âm nhạc</option>
+    <option value="mythuat"> Mỹ thuật</option>
+    </select>
+    <script>
+    var tuan =document.getElementById("myselect");
+        tuan.addEventListener("change", changed);
+function changed(){
+    var select = document.getElementById("myselect").value;
+    alert(select);
+}
+</script>
+</body>
+</html>
