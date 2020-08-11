@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sum-average-mark</title>
+</head>
+<body>
+<h1>Tính tổng và trung bình điểm vật lý, hoá, sinh</h1>
+<label for="physic">Nhập điểm môn vật lý</label>
+<input type="number"  id="physic" style="margin-bottom: 20px;margin-left:20px"> <br>
+<label for="biology">Nhập điểm môn sinh học</label>
+<input type="number"  id="biology" style="margin-bottom: 20px" > <br>
+<label for="chemistry">Nhập điểm môn hoá học</label>
+<input type="number"  id="chemistry" style="margin-bottom: 20px"> <br>
+<input type="button" id="sum" value="Tính tổng điểm" onclick="getSum()">
+<p id="showSum"></p>
+<input type="button" value="Tính điểm trung bình" onclick="getAverage()">
+<p id="showAverage"></p>
+<script>
+
+    function getSum(){
+        // let x = parseInt(document.getElementById('physic').value);
+        // let y = parseInt(document.getElementById('biology').value);
+        // let z = parseInt(document.getElementById('chemistry').value);
+        let x = Number(document.getElementById('physic').value);
+        let y = Number(document.getElementById('biology').value);
+        let z = Number(document.getElementById('chemistry').value);
+        console.log(x,y,z)
+        let sum = x+y+z;
+        // Khi mở ngoặc đơn thì xử ly trong ngoặc trước rồi mới ra cái bên ngoài, mỗi x,y,z phải parse in trước
+        // document.write('Tong: ' + sum);
+        document.getElementById('showSum').innerHTML="Tổng điểm 3 môn ="+sum;
+    }
+
+    function getAverage(){
+        // let x = parseInt(document.getElementById('physic').value);
+        // let y = parseInt(document.getElementById('biology').value);
+        // let z = parseInt(document.getElementById('chemistry').value);
+        let x = Number(document.getElementById('physic').value);
+        let y = Number(document.getElementById('biology').value);
+        let z = Number(document.getElementById('chemistry').value);
+        let average;
+        average=(x+y+z)/3;
+        if([x+y+z]%3 === 0){
+            average = average;
+        }else {
+            average = average.toFixed(2);
+            //    Chia if/ else để nếu chia hết (ví dụ =8 thì sẽ là 8 chứ không phải 8.000 như cách toFix vào riêng đáp án
+            //    toFixed để giới hạn số chữ số thập phân.
+        }
+        // average = ([x+y+z]%3 === 0)?average:average.toFixed(2);
+        //Dòng trên là toán tử 3 ngôi để giảm công viết 4 dòng Code thành 1 dòng duy nhất
+        console.log(average)
+        document.getElementById('showAverage').innerHTML="Điểm trung bình 3 môn = "+average;
+    }
+</script>
+</body>
+</html>
