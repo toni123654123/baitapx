@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febb2568-354a-4d2f-b941-569169fe6d56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module 2/cssmaytinh.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/jar_maytinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/maytinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -69,7 +74,7 @@
       <workItem from="1597051519062" duration="2314000" />
       <workItem from="1597070515407" duration="5574000" />
       <workItem from="1597125186981" duration="11013000" />
-      <workItem from="1597150842754" duration="354000" />
+      <workItem from="1597150842754" duration="4722000" />
     </task>
     <servers />
   </component>
