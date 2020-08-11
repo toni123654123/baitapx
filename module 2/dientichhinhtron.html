@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diện tích hình tròn</title>
+</head>
+<body>
+<h1>Tính diện hình tròn</h1><br>
+<h1>Nhập số </h1>
+<input type="number"  id="bankinh" /> <br>
+<input type="button" value="Tính diện tích hình tròn" onclick="getarea()"/>
+<p id="showarea"></p>
+<script>
+    function getarea() {
+        let a = document.getElementById("bankinh").value;
+        let area = a*a*3.14;
+        document.getElementById("showarea").innerHTML="Diện tích là: = "+area;
+    }
+</script>
+</body>
+</html>

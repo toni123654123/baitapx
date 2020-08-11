@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febb2568-354a-4d2f-b941-569169fe6d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module 2/chuyentoitiente.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/chuvihinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/dientichhinhtron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/doC.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module 2/diemtb.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/diemtb.html" afterDir="false" />
     </list>
@@ -39,6 +41,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/toni123654123/baitapx" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1fty7EyysP1gzCIIbo4IRx8TMxW" />
   <component name="ProjectViewState">
@@ -63,7 +72,7 @@
       <updated>1597051516044</updated>
       <workItem from="1597051519062" duration="2314000" />
       <workItem from="1597070515407" duration="5574000" />
-      <workItem from="1597125186981" duration="6104000" />
+      <workItem from="1597125186981" duration="10225000" />
     </task>
     <servers />
   </component>

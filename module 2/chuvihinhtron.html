@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chu vi hình tròn</title>
+</head>
+<body>
+<h1>chu vi hình tròn</h1><br>
+<h1>Nhập số </h1>
+<input type="number"  id="chuvi" /> <br>
+<input type="button" value="Tính diện tích hình tròn" onclick="getarea()"/>
+<p id="showarea"></p>
+<script>
+    function getarea() {
+        let a = document.getElementById("chuvi").value;
+        let area = (a*a)/(4*3.14);
+        document.getElementById("showarea").innerHTML="Diện tích là: = "+area;
+    }
+</script>
+</body>
+</html>
