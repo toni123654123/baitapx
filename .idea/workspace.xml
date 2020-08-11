@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febb2568-354a-4d2f-b941-569169fe6d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module 2/diemtb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module 2/diemtrungbinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/chuyentoitiente.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 2/diemtb.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/diemtb.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +50,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +63,7 @@
       <updated>1597051516044</updated>
       <workItem from="1597051519062" duration="2314000" />
       <workItem from="1597070515407" duration="5574000" />
-      <workItem from="1597125186981" duration="4352000" />
+      <workItem from="1597125186981" duration="6104000" />
     </task>
     <servers />
   </component>
@@ -84,5 +87,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597071052087" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1597137008423">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597137008423" />
   </component>
 </project>

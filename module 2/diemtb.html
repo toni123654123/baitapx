@@ -7,12 +7,16 @@
 <body>
 
 <script>
-   let a = document.getElementById("physic").value;
-   let b = document.getElementById("chemistry").value;
-   let c = document.getElementById("biology").value;
-   let toal = a+b+c;
-   let average = toal/3;
-   document.write("tổng điểm")
+   let a = parseInt(prompt("physic"));
+   let b = parseInt(prompt("biology"));
+   let c = parseInt(prompt("chemistry"));
+
+   let total = a+b+c;
+   let average = total/3;
+   document.write("tổng điểm" + total);
+   document.write("<br>");
+   document.write("điểm trung bình" + average);
+
 </script>
 </body>
 </html>
