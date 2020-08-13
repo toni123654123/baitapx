@@ -1,19 +1,9 @@
 
 var ketqua = document.getElementById('ketqua');
-
-// Vừa kết thúc phím tính
 var end = false;
-
-// Đổi dấu
 var doi_dau = false;
-
-// Vừa bấm phép tính?
 var doi_phep_tinh = false;
-
-// Ghi nhớ phép tính cũ nếu có thay đổi phép tính
 var phep_tinh_cu = '';
-
-// Số phép tính ưu tiên tìm thấy
 var uu_tien = 0;
 
 // Mảng ghi nhớ các số hạng
@@ -29,10 +19,6 @@ var str_ketqua = '';
 
 // Phím mới
 var phim_moi = '';
-
-/**************************/
-// CÀI ĐẶT SỰ KIỆN
-/**************************/
 
 function ClickButton(obj){
 
