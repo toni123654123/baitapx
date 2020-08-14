@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game puzzle</title>
+</head>
+<style>
+    img{
+    width: 600px; height: 150px;
+    }
+</style>
+
+<body>
+ <img onclick="swap('top')" id="top" src="img/topI/panda_swap_part1x1.jpg"  alt="panda" />
+<br>
+ <img onclick="swap('head')" id="head" src="img/headI/panda_swap_part1x1.jpg" alt="panda"/>
+ <br>
+ <img onclick="swap('mid')" id="mid" src="img/midI/monkey_part1x1.jpg" alt="monkey"/>
+ <br>
+ <img onclick="swap('left')" id="left" src="img/leftI/funny-cat1_part1x1.jpg" alt="cat"/>
+ <br>
+
+<script>
+    function swap(bodyPart) {
+        let img = document.getElementById(bodyPart);
+        switch (img.alt) {
+            case 'cat':
+                img.src = 'img/'+bodyPart+'I/monkey_part1x1.jpg'; img.alt = 'monkey';
+                break;
+            case 'monkey':
+                img.src = 'img/'+bodyPart+'I/panda_swap_part1x1.jpg'; img.alt ='panda';
+                break;
+            case 'panda':
+                img.src = 'img/'+bodyPart+'I/funny-cat1_part1x1.jpg'; img.alt ='cat';
+                break;
+            default:
+                alert("lỗi");
+        }
+
+    }
+    // function CheckDone() {
+    //  let src1 = document.getElementById("top").getAttribute("src");
+    //  let src2 = document.getElementById("head").getAttribute("src");
+    //  let src3 = document.getElementById("mid").getAttribute("src");
+    //  let src4 = document.getElementById("left").getAttribute("src");
+    //  let src5 = document.getElementById("right").getAttribute("src");
+    //
+    // }
+    function checkWin() {
+     if(getImg(top).alt === getImg(head).alt && getImg(head).alt === getImg(mid).alt && getImg(mid).alt=== getImg(left).alt&& getImg(left).alt === getImg(right).alt){
+      setTimeout(function () {
+       alert("You win");
+      },100);
+
+     }
+    }
+
+
+</script>
+</body>
+</html>
