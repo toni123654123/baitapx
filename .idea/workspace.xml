@@ -20,10 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febb2568-354a-4d2f-b941-569169fe6d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module 2/game/good_fast_cheap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap1/luyentap1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap1/luyentap2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap1/luyentap3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap1/luyentap4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap1/luyentap5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap1/luyentap6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/luyentap2/bai9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module 2/game/Doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/game/Doyouloveme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module 2/game/Game_puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/game/Game_puzzle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 2/game/good_fast_cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/game/good_fast_cheap.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tuan\Desktop\codegymx\baitapx\module 2\luyentap1" />
       <recent name="C:\Users\Tuan\Desktop\codegymx\baitapx\module 2\sukien" />
       <recent name="C:\Users\Tuan\Desktop\codegymx\baitapx\module 2\game" />
     </key>
@@ -89,7 +104,8 @@
       <workItem from="1597367303082" duration="9793000" />
       <workItem from="1597392412461" duration="8244000" />
       <workItem from="1597413325590" duration="4336000" />
-      <workItem from="1597458831896" duration="1727000" />
+      <workItem from="1597458831896" duration="9349000" />
+      <workItem from="1597471505135" duration="8663000" />
     </task>
     <servers />
   </component>
@@ -121,5 +137,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597137008423" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1597463111010">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1597463111010" />
   </component>
 </project>

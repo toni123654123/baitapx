@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải phương trình bậc 2</title>
+</head>
+<body>
+<form>
+<input type="text" name="a" value=""><br>
+<input type="text" name="b" value=""><br>
+<input type="text" name="c" value=""><br>
+<p>Đáp số:</p>
+<input type="text" name="x" value=""><br>
+<input type="text" name="y" value=""><br>
+<input type="button" value="xác nhận" onclick="submit(this.form)">
+</form>
+<script>
+    function submit(form){
+        let x1,x2;
+        let x,y,z,delta;
+        x= parseInt(form.a.value);
+        y= parseInt(form.b.value);
+        z= parseInt(form.c.value);
+         delta=(y*y-4*x*z)
+        if(delta ==0){
+            alert("phuong trinh co nghiem kep");
+            x1=-y/(2*x) ;
+            x2=-y/(2*x);
+            form.x.value=eval(x1);
+            form.y.value=eval(x2);
+        }
+        else if(delta<0){
+            alert("phuong trinh vo nghiem");
+        }
+        else{
+            alert("phuong trinh co hai nghiem");
+            x1=(-y-Math.sqrt(delta))/(2*x);
+            x2=(-y+Math.sqrt(delta))/(2*x);
+            form.x.value=eval(x1);
+            form.y.value=eval(x2);
+        }
+    }
+</script>
+
+<!--<script>-->
+<!--    function submit(form) {-->
+<!--       let a =Number(document.getElementById('a'));-->
+<!--       let b =Number(document.getElementById('b'));-->
+<!--       let c =Number(document.getElementById('c'));-->
+<!--       let delta = b * b - 4 * a * c;-->
+<!--       let x1-->
+<!--        let x2-->
+<!--        if (delta == 0) {-->
+<!--           alert('phương trình có 2 nghiệm kép ');-->
+<!--              x1= (-b) / (2 * a);-->
+<!--              x2= (-b) / (2 * a);-->
+<!--            x.value=eval(x1);-->
+<!--            y.value=eval(x2);-->
+<!--        } else if (delta < 0) {-->
+<!--           alert('phương trình vô nghiệm');-->
+<!--        } else {-->
+<!--            alert('phương trình có 2 nghiệm');-->
+<!--             x1= (-b - Math.sqrt(delta)) / (2 * a);-->
+<!--             x2= (-b + Math.sqrt(delta)) / (2 * b);-->
+<!--        }-->
+<!--    }-->
+<!--</script>-->
+</body>
+</html>
