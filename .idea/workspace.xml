@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="febb2568-354a-4d2f-b941-569169fe6d56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module 2/demoja/demoswitchcase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module 2/game/Doyouloveme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module 2/game/Game_puzzle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module 2/game/good_fast_cheap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module 2/img/img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/sukien/img/img.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module 2/img/nobita.png" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/sukien/img/nobita.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 2/game/Doyouloveme.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/game/Doyouloveme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module 2/game/Game_puzzle.html" beforeDir="false" afterPath="$PROJECT_DIR$/module 2/game/Game_puzzle.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,8 @@
       <workItem from="1597326274369" duration="2776000" />
       <workItem from="1597367303082" duration="9793000" />
       <workItem from="1597392412461" duration="8244000" />
-      <workItem from="1597413325590" duration="2537000" />
+      <workItem from="1597413325590" duration="4336000" />
+      <workItem from="1597458831896" duration="1727000" />
     </task>
     <servers />
   </component>

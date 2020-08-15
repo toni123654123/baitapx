@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Good fast cheap</title>
+</head>
+<body>
+<input type="checkbox" value="1" onclick= "roll('good')" id="good"> Good
+<br>
+<input type="checkbox" value="2" onclick="roll('fast')" id="fast"> Fast
+<br>
+<input type="checkbox" value="3" onclick="roll('cheap')" id="cheap"> Cheap
+<script>
+    function roll(bt) {
+        let good = document.getElementById('good');
+        let fast = document.getElementById('fast');
+        let cheap = document.getElementById('cheap');
+        switch (bt){
+            case "good":
+                if (good.checked && fast.checked === true) {
+                    cheap.checked = false;
+                }
+                break;
+            case "fast":
+                if (fast.checked && good.checked === true) {
+                    cheap.checked = false;
+                }
+                break;
+            case "cheap":
+                if (cheap.checked && fast.checked === true) {
+                    good.checked = false;
+                }
+                break;
+        }
+    }
+
+</script>
+</body>
+</html>
